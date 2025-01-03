@@ -1,0 +1,50 @@
+.footer {
+    margin: 50px 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.footer-right{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.nav-icons {
+    display: flex;
+    gap: 20px;
+}
+.nav-icons svg {
+    margin-bottom: 7px;
+    cursor: pointer;
+    transition: transform 0.4s;
+}
+  
+.nav-icons .LinkedIn:hover svg {
+    fill: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.6%);
+    transform: scale(1.075);
+}
+  
+.nav-icons .Email:hover svg {
+    fill: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.6%);
+    transform: scale(1.075);
+}
+  
+.nav-icons .Github:hover svg {
+    fill: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.6%);
+    transform: scale(1.075);
+}
+@media (max-width: 768px) {
+    .footer{
+        margin: 50px 70px;
+    }
+    .footer-top{
+        display: flex;
+        flex-direction: column;
+        margin-bottom:50px;
+    }
+}
